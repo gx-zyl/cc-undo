@@ -38,6 +38,7 @@
   - [Understand-Anything](docs/add-understand-anything.md)
   - [VoiceMode](docs/add-voicemode.md)
   - [Claude × DeepSeek 配置](docs/add-claude-deepseek-config.md)
+  - [java-all-call-graph](docs/add-java-all-call-graph.md)（含 Web 界面）
 - [Agent / Skill](#agent--skill)
   - [andrej-karpathy-skills](docs/add-karpathy-skills.md)
   - [OpenSpec](docs/add-openspec.md)
@@ -87,6 +88,12 @@ Natural voice conversations with Claude Code —— 用语音和 AI 对话。
 Claude Code CLI 连接 DeepSeek V4 的配置模板。一行 `ANTHROPIC_BASE_URL` 切换供应商。
 
 [→ 详情](docs/add-claude-deepseek-config.md)
+
+### java-all-call-graph
+
+Java 代码全量调用链生成工具。字节码级分析，输出完整调用图。
+
+[→ GitHub](https://github.com/Adrninistrator/java-all-call-graph) · [→ 详细](docs/add-java-all-call-graph.md)
 
 ---
 
