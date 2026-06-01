@@ -29,10 +29,6 @@ The Operating System for Human Flourishing —— 一套促进人类繁荣的协
 | ⭐ | 23 |
 | 定位 | Operating System for Human Flourishing |
 
-## 关于
-
-黄庭协议（Huangting Protocol）由 XianDAO-Labs 发起，定位为 "The Operating System for Human Flourishing" —— 一套促进人类繁荣的操作系统级协议。项目处于早期阶段。
-
 ## cc-undo 跟踪方向
 
 - 项目进展跟踪（早期阶段，值得关注）

@@ -38,6 +38,7 @@
   - [Understand-Anything](docs/add-understand-anything.md)
 - [Agent / Skill](#agent--skill)
   - [andrej-karpathy-skills](docs/add-karpathy-skills.md)
+  - [OpenSpec](docs/add-openspec.md)
   - [mattpocock/skills](docs/add-mattpocock-skills.md)
   - [web-access](docs/add-web-access.md)
 - [哲学](#哲学)
@@ -83,6 +84,12 @@ AI 从任意文档生成原生可编辑 PPTX。
 
 [→ GitHub](https://github.com/forrestchang/andrej-karpathy-skills) · [→ 详细](docs/add-karpathy-skills.md)
 
+### OpenSpec
+
+Spec-driven development —— 用精确规格驱动 AI 生成靠谱代码。
+
+[→ GitHub](https://github.com/Fission-AI/OpenSpec) · [→ 详细](docs/add-openspec.md)
+
 ### mattpocock/skills
 
 Skills for Real Engineers —— 日常使用的 Agent Skills 集合。对齐沟通、共享语言、反馈闭环。
@@ -105,25 +112,4 @@ The Operating System for Human Flourishing —— 促进人类繁荣的协议。
 
 [→ GitHub](https://github.com/XianDAO-Labs/huangting-protocol) · [→ 详细](docs/add-huangting-protocol.md)
 
----
 
-## 核心流程
-
-```
-  ┌──────────┐    ┌──────────┐    ┌──────────┐    ┌──────────┐
-  │ 扫描缺口   │──→│ 登记入库   │──→│ 排优先级   │──→│ 跟踪闭环   │
-  │           │    │           │    │           │    │           │
-  │ · 代码审查 │    │ · 分类    │    │ · P0 紧急 │    │ · 🔴→🟡  │
-  │ · 用户反馈 │    │ · 描述    │    │ · P1 重要 │    │ · 🟡→🟢  │
-  │ · 自测遗漏 │    │ · 标记    │    │ · P2 一般 │    │ · 周报    │
-  │ · 需求变更 │    │ · 关联    │    │ · P3 锦上  │    │ · 归档    │
-  └──────────┘    └──────────┘    └──────────┘    └──────────┘
-```
-
----
-
-## 快速开始
-
-```bash
-# TODO: 初始化 & 使用说明
-```
