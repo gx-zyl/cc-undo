@@ -65,6 +65,7 @@
 | 项目 | 关系 | 链接 |
 |------|------|------|
 | ppt-master | AI 生成可编辑 PowerPoint（母项目） | [→ GitHub](https://github.com/hugohe3/ppt-master) |
+| Scrapling | 自适应 Web 爬虫框架（56k ⭐，Python） | [→ GitHub](https://github.com/D4Vinci/Scrapling) |
 
 ---
 
