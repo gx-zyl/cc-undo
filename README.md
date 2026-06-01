@@ -28,55 +28,44 @@
 
 ---
 
-## ppt-master
+## 目录
 
-AI 从任意文档生成原生可编辑 PPTX。
-
-```
-  ┌──────────┐     ┌──────────┐     ┌──────────┐     ┌──────────────┐
-  │ 任意文档   │ ──→ │  AI 解析  │ ──→ │ PPTX 生成 │ ──→ │ 原生可编辑   │
-  │ .pdf/.md  │     │  语义提取  │     │  模板适配  │     │  形状+动画   │
-  │ .docx/.txt│     │  大纲构建  │     │  备注+语音 │     │  演讲备注+语音  │
-  └──────────┘     └──────────┘     └──────────┘     └──────────────┘
-```
-
-| 属性 | 说明 |
-|------|------|
-| 作者 | [hugohe3](https://github.com/hugohe3) |
-| 协议 | MIT |
-| 核心能力 | 文档 → AI 结构化 → 原生 PPTX（非图片） |
-| 亮点 | 自定义模板 / 动画 / 演讲者备注 + AI 语音配音 |
-
-> **cc-undo 跟踪方向**：未对齐的模板、丢失的动画类型、语音合成异常等。
-
-[→ GitHub](https://github.com/hugohe3/ppt-master)
+- [AI / 内容生成](#ai--内容生成)
+  - [ppt-master](docs/add-ppt-master.md)
+- [数据采集 / Web](#数据采集--web)
+  - [Scrapling](docs/add-scrapling.md)
+- [Agent / Skill](#agent--skill)
+  - [web-access](docs/add-web-access.md)
 
 ---
 
-## Scrapling
+## AI / 内容生成
+
+### ppt-master
+
+AI 从任意文档生成原生可编辑 PPTX。
+
+[→ GitHub](https://github.com/hugohe3/ppt-master) · [→ 详细](docs/add-ppt-master.md)
+
+---
+
+## 数据采集 / Web
+
+### Scrapling
 
 自适应 Web 爬虫框架 —— 从单次请求到全站爬取，一站式解决。
 
-```
-  ┌────────────┐     ┌────────────┐     ┌────────────┐     ┌────────────┐
-  │   自动适配   │     │   智能选择器  │     │   反检测    │     │   AI 增强   │
-  │            │     │            │     │            │     │            │
-  │ · HTTP/Play │     │ · CSS      │     │ · TLS 指纹  │     │ · MCP 服务  │
-  │ · CDP 协议  │     │ · XPath    │     │ · 浏览器头  │     │ · 智能提取  │
-  │ · 自动降级   │     │ · AI 选择器 │     │ · 代理轮换  │     │ · Agent 集成 │
-  └────────────┘     └────────────┘     └────────────┘     └────────────┘
-```
+[→ GitHub](https://github.com/D4Vinci/Scrapling) · [→ 详细](docs/add-scrapling.md)
 
-| 属性 | 说明 |
-|------|------|
-| 作者 | [D4Vinci](https://github.com/D4Vinci) |
-| 语言 | Python |
-| ⭐ | 56k+ |
-| 核心能力 | 自适应爬取 / 反检测 / AI 选择器 / MCP Server |
+---
 
-> **cc-undo 跟踪方向**：特定站点的适配问题、反检测策略失效、AI 提取不准确等。
+## Agent / Skill
 
-[→ GitHub](https://github.com/D4Vinci/Scrapling)
+### web-access
+
+给 AI Agent 装上完整联网能力的 Skill。三层通道调度 + 浏览器 CDP + 并行分治。
+
+[→ GitHub](https://github.com/eze-is/web-access) · [→ 详细](docs/add-web-access.md)
 
 ---
 
