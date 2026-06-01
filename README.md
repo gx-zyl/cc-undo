@@ -37,6 +37,7 @@
 - [开发工具](#开发工具)
   - [Understand-Anything](docs/add-understand-anything.md)
   - [VoiceMode](docs/add-voicemode.md)
+  - [Claude × DeepSeek 配置](docs/add-claude-deepseek-config.md)
 - [Agent / Skill](#agent--skill)
   - [andrej-karpathy-skills](docs/add-karpathy-skills.md)
   - [OpenSpec](docs/add-openspec.md)
@@ -80,6 +81,12 @@ AI 从任意文档生成原生可编辑 PPTX。
 Natural voice conversations with Claude Code —— 用语音和 AI 对话。
 
 [→ GitHub](https://github.com/mbailey/voicemode) · [→ 详细](docs/add-voicemode.md)
+
+### Claude × DeepSeek 配置
+
+Claude Code CLI 连接 DeepSeek V4 的配置模板。一行 `ANTHROPIC_BASE_URL` 切换供应商。
+
+[→ 详情](docs/add-claude-deepseek-config.md)
 
 ---
 
