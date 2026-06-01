@@ -36,6 +36,7 @@
   - [Scrapling](docs/add-scrapling.md)
 - [开发工具](#开发工具)
   - [Understand-Anything](docs/add-understand-anything.md)
+  - [VoiceMode](docs/add-voicemode.md)
 - [Agent / Skill](#agent--skill)
   - [andrej-karpathy-skills](docs/add-karpathy-skills.md)
   - [OpenSpec](docs/add-openspec.md)
@@ -73,6 +74,12 @@ AI 从任意文档生成原生可编辑 PPTX。
 将任意代码库转为可探索、可搜索、可提问的交互式知识图谱。
 
 [→ GitHub](https://github.com/Lum1104/Understand-Anything) · [→ 详细](docs/add-understand-anything.md)
+
+### VoiceMode
+
+Natural voice conversations with Claude Code —— 用语音和 AI 对话。
+
+[→ GitHub](https://github.com/mbailey/voicemode) · [→ 详细](docs/add-voicemode.md)
 
 ---
 
