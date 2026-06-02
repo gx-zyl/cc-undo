@@ -39,6 +39,7 @@
   - [VoiceMode](docs/add-voicemode.md)
   - [Claude × DeepSeek 配置](docs/add-claude-deepseek-config.md)
   - [java-all-call-graph](docs/add-java-all-call-graph.md)（含 Web 界面）
+  - [BaiduPCS-Rust](docs/add-baidupcs-rust.md)
 - [Agent / Skill](#agent--skill)
   - [andrej-karpathy-skills](docs/add-karpathy-skills.md)
   - [OpenSpec](docs/add-openspec.md)
@@ -95,6 +96,21 @@ Claude Code CLI 连接 DeepSeek V4 的配置模板。一行 `ANTHROPIC_BASE_URL`
 Java 代码全量调用链生成工具。字节码级分析，输出完整调用图。
 
 [→ GitHub](https://github.com/Adrninistrator/java-all-call-graph) · [→ 详细](docs/add-java-all-call-graph.md)
+
+### BaiduPCS-Rust
+
+Rust 构建的百度网盘第三方客户端 —— 多线程下载、本地加密上传、自动备份、Web 管理面板 + TOTP 双因素认证。
+
+```
+  上传: 本地 → AES加密 → 百度网盘
+  下载: 网盘 → 多线程分片 → 解密 → 本地
+  备份: 本地目录 → 定时增量同步 → 网盘
+```
+
+| ⭐ 499 | 🦀 Rust+Vue3 | 🔐 Apache-2.0 |
+|--------|--------------|---------------|
+
+[→ GitHub](https://github.com/komorebiCarry/BaiduPCS-Rust) · [→ 详细](docs/add-baidupcs-rust.md)
 
 ---
 
