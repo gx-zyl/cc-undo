@@ -44,6 +44,7 @@
   - [OpenSpec](docs/add-openspec.md)
   - [mattpocock/skills](docs/add-mattpocock-skills.md)
   - [web-access](docs/add-web-access.md)
+  - [wechat-acp](docs/add-wechat-acp.md)
 - [哲学](#哲学)
   - [huangting-protocol](docs/add-huangting-protocol.md)
 
@@ -122,6 +123,12 @@ Skills for Real Engineers —— 日常使用的 Agent Skills 集合。对齐沟
 给 AI Agent 装上完整联网能力的 Skill。三层通道调度 + 浏览器 CDP + 并行分治。
 
 [→ GitHub](https://github.com/eze-is/web-access) · [→ 详细](docs/add-web-access.md)
+
+### wechat-acp
+
+WeChat ↔ ACP 兼容 AI Agent 的桥接器 —— 微信聊天直连 Claude / Copilot / Gemini 等 11+ 个 Agent。
+
+[→ GitHub](https://github.com/formulahendry/wechat-acp) · [→ 详细](docs/add-wechat-acp.md)
 
 ---
 
