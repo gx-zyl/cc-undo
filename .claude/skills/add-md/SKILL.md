@@ -45,7 +45,7 @@ metadata:
 
 若链接指向的是**文章/博客/专栏页面**（而非 GitHub 项目），且能提取到正文内容：
 
-1. 在 `docs/<slug>-references/` 目录下将原文完整文本保存为 `original-article.txt`
+1. 在 `docs/<slug>-references/` 目录下将原文完整文本保存为 `original-article.md`（Markdown 格式，在代码块内保留原文）
 2. 在 `docs/add-<slug>.md` 中添加 "原文全文" 章节，引用该文件路径
 3. 加注版权声明：原文版权归原作者所有，此副本仅作本地查阅备份
 
@@ -89,5 +89,6 @@ metadata:
 - 每个项目独立 .md 文件，放 `docs/` 下
 - 已有项目不重复添加
 - 分类由 AI 推断，拿不准时问用户
-- 原文备份统一放 `docs/<slug>-references/` 目录下，文件名为 `original-article.txt`
+- 原文备份统一放 `docs/<slug>-references/` 目录下，文件名为 `original-article.md`
+- 原文备份格式：Markdown 文件，原文正文放在代码块中（`` ```text `` ... `` ``` ``），保留原始格式
 - 原文备份仅限文章类链接，不适用于 GitHub 项目页（源码本身即存档）

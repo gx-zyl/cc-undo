@@ -1,9 +1,13 @@
-Title: Structured-Prompt-Driven Development (SPDD)
-URL: https://martinfowler.com/articles/structured-prompt-driven/
+# Title: Structured-Prompt-Driven Development (SPDD)
+
+**URL: https://martinfowler.com/articles/structured-prompt-driven/**
+
 Authors: Wei Zhang & Jessie Jie Xia (Thoughtworks)
 Published: 2026-04-28
-==================================================================
 
+---
+
+```text
 Structured-Prompt-Driven Development (SPDD)
 
 How to make LLM-assisted changes governable, reviewable, and reusable
@@ -770,3 +774,4 @@ Footnotes
 3: Since this is an optional command, if it is not available in your local environment, you can generate it by running openspdd generate spdd-api-test.
 
 Significant Revisions
+```

@@ -81,6 +81,6 @@
 
 原文全文保存在本地：
 
-- **`docs/skill-design-references/original-article.txt`** — 知乎原文完整文本（4642 字符）
+- **`docs/skill-design-references/original-article.md`** — 知乎原文完整文本，放在代码块内
 
 > 本文件是原文的原始副本，用于本地查阅和引用。当文章链接失效时可作备份。原文版权归作者姜饼所有。

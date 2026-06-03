@@ -89,6 +89,6 @@
 
 原文全文保存在本地：
 
-- **`docs/spdd-references/original-article.txt`** — martinfowler.com 原文完整文本（67,569 字符）
+- **`docs/spdd-references/original-article.md`** — martinfowler.com 原文完整文本（67,569 字符），放在代码块内
 
 > 本文件是原文的原始副本，用于本地查阅和引用。原文版权归 Wei Zhang & Jessie Jie Xia (Thoughtworks) 及 martinfowler.com 所有，此副本仅作本地查阅备份。
