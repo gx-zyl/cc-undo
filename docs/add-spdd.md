@@ -84,3 +84,11 @@
 
 - [Structured-Prompt-Driven Development (SPDD) — martinfowler.com](https://martinfowler.com/articles/structured-prompt-driven/)
 - [Martin Fowler 的点评 (Fragments, 2026-05-05)](https://martinfowler.com/fragments/2026-05-05.html)
+
+## 原文全文
+
+原文全文保存在本地：
+
+- **`docs/spdd-references/original-article.txt`** — martinfowler.com 原文完整文本（67,569 字符）
+
+> 本文件是原文的原始副本，用于本地查阅和引用。原文版权归 Wei Zhang & Jessie Jie Xia (Thoughtworks) 及 martinfowler.com 所有，此副本仅作本地查阅备份。
