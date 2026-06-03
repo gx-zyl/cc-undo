@@ -36,6 +36,7 @@
   - [Scrapling](docs/add-scrapling.md)
 - [开发工具](#开发工具)
   - [MarkItDown](docs/add-markitdown.md)
+  - [SPDD](docs/add-spdd.md)
   - [Understand-Anything](docs/add-understand-anything.md)
   - [VoiceMode](docs/add-voicemode.md)
   - [Claude × DeepSeek 配置](docs/add-claude-deepseek-config.md)
@@ -46,6 +47,7 @@
 - [安全工具](#安全工具)
   - [hackingtool](docs/add-hackingtool.md)
 - [Agent / Skill](#agent--skill)
+  - [Skill 设计方法论](docs/add-skill-design.md)
   - [andrej-karpathy-skills](docs/add-karpathy-skills.md)
   - [OpenSpec](docs/add-openspec.md)
   - [mattpocock/skills](docs/add-mattpocock-skills.md)
@@ -133,6 +135,23 @@ Microsoft 开源的文档→Markdown 转换工具。PDF / Word / PPT / Excel / H
 
 [→ GitHub](https://github.com/microsoft/markitdown) · [→ 详细](docs/add-markitdown.md)
 
+### SPDD
+
+Structured-Prompt-Driven Development — Thoughtworks 出品的 Prompt 驱动开发方法论。把 Prompt 当一等交付工件，7 要素 REASONS Canvas 生成 + 先修 Prompt 再改代码的闭环工作流。
+
+```
+  REASONS Canvas (7 要素)                     SPDD 闭环
+  ┌──┐ ┌──┐ ┌──┐ ┌──┐ ┌──┐ ┌──┐ ┌──┐    Prompt ─→ 代码 ─→ 审查
+  │R │ │E │ │A │ │S │ │O │ │N │ │S │       ↑           │
+  │需求│ │实体│ │方法│ │结构│ │操作│ │规范│ │ 护栏│    └── 修 Prompt ─┘
+  └──┘ └──┘ └──┘ └──┘ └──┘ └──┘ └──┘    现实偏离 → 先修 Prompt！
+```
+
+| 📄 Martin Fowler | 🏢 Thoughtworks | 🛠️ openspdd CLI |
+|------------------|-----------------|------------------|
+
+[→ martinfowler.com 原文](https://martinfowler.com/articles/structured-prompt-driven/) · [→ 详细](docs/add-spdd.md)
+
 ---
 
 ## 平台 / 服务
@@ -158,6 +177,26 @@ Microsoft 开源的文档→Markdown 转换工具。PDF / Word / PPT / Excel / H
 ---
 
 ## Agent / Skill
+
+### Skill 设计方法论
+
+别再让 AI 自动总结 Skill 了！Skill 不是长 Prompt，是 `SKILL.md` + `references/` + `scripts/` 的结构化目录。
+
+```
+  长 Prompt              Skill
+  ┌────────────┐        ┌──────────────┐
+  │ 流程+模板   │  →→→  │ SKILL.md     │ 入口/流程
+  │ 配置+偏好   │        │ references/  │ 模板/配置/示例
+  │ 临时上下文  │        │ scripts/     │ 稳定动作
+  └────────────┘        │ AI           │ 判断类工作
+                        └──────────────┘
+  × 模型每次重理解        ✓ 按设计好的路径执行
+```
+
+| 📝 姜饼 | 📖 知乎专栏 | 🎯 Skill 设计 5 步法 |
+|---------|-------------|---------------------|
+
+[→ 知乎原文](https://zhuanlan.zhihu.com/p/2044725275867486082) · [→ 详细](docs/add-skill-design.md)
 
 ### andrej-karpathy-skills
 
