@@ -36,6 +36,7 @@
   - [Scrapling](docs/add-scrapling.md)
 - [开发工具](#开发工具)
   - [MarkItDown](docs/add-markitdown.md)
+  - [Headroom](docs/add-headroom.md)
   - [SPDD](docs/add-spdd.md)
   - [Understand-Anything](docs/add-understand-anything.md)
   - [VoiceMode](docs/add-voicemode.md)
@@ -134,6 +135,22 @@ Microsoft 开源的文档→Markdown 转换工具。PDF / Word / PPT / Excel / H
 |---------|-----------------|-----|
 
 [→ GitHub](https://github.com/microsoft/markitdown) · [→ 详细](docs/add-markitdown.md)
+
+### Headroom
+
+Compress tool outputs, logs, files, and RAG chunks before they reach the LLM —— 60-95% fewer tokens, same answers. 支持 Library API、透明 Proxy、MCP Server 三种模式。
+
+```
+Tool输出/日志/文件/RAG ─▶ [Headroom Compression Engine] ─▶ 精简后的 LLM 上下文
+                           ├── Library   (Python / TypeScript)
+                           ├── Proxy     (透明压缩)
+                           └── MCP Server (Claude / Cursor 集成)
+```
+
+| ⭐ ~10.5k | 🐍 Python | Apache-2.0 | 三种集成模式 |
+|----------|-----------|------------|------------|
+
+[→ GitHub](https://github.com/chopratejas/headroom) · [→ 详细](docs/add-headroom.md)
 
 ### SPDD
 
