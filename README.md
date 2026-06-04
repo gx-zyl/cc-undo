@@ -48,6 +48,7 @@
 - [安全工具](#安全工具)
   - [hackingtool](docs/add-hackingtool.md)
 - [Agent / Skill](#agent--skill)
+  - [Claude Code Essential Agents](docs/add-claude-code-essential-agents.md)
   - [Skill 设计方法论](docs/add-skill-design.md)
   - [andrej-karpathy-skills](docs/add-karpathy-skills.md)
   - [OpenSpec](docs/add-openspec.md)
@@ -194,6 +195,29 @@ Structured-Prompt-Driven Development — Thoughtworks 出品的 Prompt 驱动开
 ---
 
 ## Agent / Skill
+
+### Claude Code Essential Agents
+
+10 個開箱即用的 Claude Code 自訂 Agent 配置 —— Code Reviewer、Debugger、Test Writer、Security Auditor、Doc Writer、Git Expert、API Designer、Performance Optimizer、Database Expert、Refactor Assistant。每個都有完整 YAML，複製到 `.claude/agents/` 即可啟用。
+
+```
+  .claude/agents/*.md ──▶ [Claude Code Agent 引擎]
+                            ├── Code Reviewer  (Sonnet) 程式碼審查
+                            ├── Debugger       (Sonnet) 除錯追蹤
+                            ├── Test Writer    (Sonnet) 測試撰寫
+                            ├── Security Auditor (Sonnet) 資安稽核
+                            ├── Doc Writer     (Haiku)  文件撰寫
+                            ├── Git Expert     (Haiku)  版本控制
+                            ├── API Designer   (Sonnet) REST 設計
+                            ├── Perf Optimizer (Sonnet) 效能優化
+                            ├── Database Expert (Sonnet) 資料庫
+                            └── Refactor Assist (Sonnet) 重構助手
+```
+
+| 📝 Claude World | 🎯 10 個 Agent | 💰 成本優化指南 | 🔧 複製即用 |
+|------------------|----------------|-----------------|------------|
+
+[→ 原文](https://claude-world.com/zh-tw/articles/claude-code-essential-agents/) · [→ 详细](docs/add-claude-code-essential-agents.md)
 
 ### Skill 设计方法论
 
