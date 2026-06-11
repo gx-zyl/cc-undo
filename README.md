@@ -55,6 +55,7 @@
   - [mattpocock/skills](docs/add-mattpocock-skills.md)
   - [web-access](docs/add-web-access.md)
   - [wechat-acp](docs/add-wechat-acp.md)
+  - [Garden Skills](docs/add-garden-skills.md)
 - [哲学](#哲学)
   - [huangting-protocol](docs/add-huangting-protocol.md)
 
@@ -268,6 +269,32 @@ Skills for Real Engineers —— 日常使用的 Agent Skills 集合。对齐沟
 WeChat ↔ ACP 兼容 AI Agent 的桥接器 —— 微信聊天直连 Claude / Copilot / Gemini 等 11+ 个 Agent。
 
 [→ GitHub](https://github.com/formulahendry/wechat-acp) · [→ 详细](docs/add-wechat-acp.md)
+
+### Garden Skills
+
+ConardLi 出品的生产级 Agent Skills 集合 —— 4 个即插即用 Skill，覆盖 Web 演示制作、设计工程、图片生成、文章创作。
+
+```
+                          ┌─────────────────────────────────────┐
+                          │         Garden Skills 精选集          │
+                          │   web-video  │  web-design  │  image  │
+                          └─────────────────────────────────────┘
+                                         │
+                    ┌────────────────────┼────────────────────┐
+                    │                    │                    │
+                    ▼                    ▼                    ▼
+          ┌─────────────────┐  ┌─────────────────┐  ┌─────────────────┐
+          │ web-video-       │  │ web-design-      │  │ gpt-image-2      │
+          │ presentation     │  │ engineer         │  │                  │
+          │                  │  │                  │  │ 18类 79模板      │
+          │ 23主题 + TTS     │  │ 25风格配方        │  │ 3种运行模式      │
+          └─────────────────┘  └─────────────────┘  └─────────────────┘
+```
+
+| ⭐ 7,703 | 🖥️ CSS | 📜 MIT | 4 个生产级 Skill |
+|----------|--------|-------|-----------------|
+
+[→ GitHub](https://github.com/ConardLi/garden-skills) · [→ 详细](docs/add-garden-skills.md)
 
 ---
 
