@@ -32,6 +32,7 @@
 
 - [AI / 内容生成](#ai--内容生成)
   - [ppt-master](docs/add-ppt-master.md)
+  - [Story-to-Game](docs/add-story-to-game.md)
 - [数据采集 / Web](#数据采集--web)
   - [Scrapling](docs/add-scrapling.md)
 - [开发工具](#开发工具)
@@ -69,6 +70,21 @@
 AI 从任意文档生成原生可编辑 PPTX。
 
 [→ GitHub](https://github.com/hugohe3/ppt-master) · [→ 详细](docs/add-ppt-master.md)
+
+### Story-to-Game
+
+互动文游生成与运行套件 —— 从小说/剧本到可游玩分支叙事游戏的全流程工具。含 HTML 单文件启动器 + AI 技能包。
+
+```
+  小说/剧本 ──▶ [Story-to-Game AI 技能] ──▶ JSON 剧本 ──▶ [HTML 启动器] ──▶ 沉浸游玩
+                     │                          │
+              风格保真·分支设计·状态系统     validate.py 13项校验
+```
+
+| ⭐ 282 | 🌐 HTML | 📜 MIT | 🏗️ AI 改编+启动器 |
+|--------|---------|--------|------------------|
+
+[→ GitHub](https://github.com/Shanyin-ai/Story-to-game) · [→ 详细](docs/add-story-to-game.md)
 
 ---
 
